@@ -1,0 +1,18 @@
+{
+    "menujson":"./content/menu.json",
+    "script1json":"./content/script1.json",
+    "digua2jpg":"./content/assets/digua2.jpg",
+    "iconjpg":"./content/assets/icon.jpg",
+    "guobapng":"./content/assets/guoba.png",
+    "olskjpg":"./content/assets/olsk.jpg",
+    "settingspng":"./content/assets/settings.png",
+    "technothecat1png":"./content/assets/technothecat1.png",
+    "technothecat2jpg":"./content/assets/technothecat2.jpg",
+    "bela1png":"./content/assets/characters/bela/bela1.png",
+    "bela2png":"./content/assets/characters/bela/bela2.png",
+    "diguajpg":"./content/assets/characters/digua/digua.jpg",
+    "olsk2jpg":"./content/assets/characters/olsk/olsk2.jpg",
+    "brestjpg":"./content/assets/characters/brest/brest.jpg",
+    "solokovjpg":"./content/assets/characters/solokov/solokov.jpg",
+    "solokov2jpg":"./content/assets/characters/solokov/solokov2.jpg"
+}

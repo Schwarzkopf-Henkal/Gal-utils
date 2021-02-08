@@ -1,0 +1,45 @@
+{
+  "name": "gal_utils",
+  "version": "1.0.0",
+  "description": "Simple Galgame framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": " electron-builder --dir ",
+    "dist": " electron-builder --win --x64",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "electron ."
+  },
+  "author": "Schwarzkopf Henkal",
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^11.2.1"
+  },
+  "build": {
+    "appId": " Schwarzkopf.LID ",
+    "mac": {
+        "category": " Schwarzkopf.LID._._ "
+    },
+    "extraResources": [
+      {
+        "from": "component/", 
+        "to": "../component/"
+      },
+      {
+        "from": "content/", 
+        "to": "../content/"
+      },
+      {
+        "from": "static/", 
+        "to": "../static/"
+      }
+    ] 
+  }
+}

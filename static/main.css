@@ -1,0 +1,123 @@
+@font-face{
+    font-family: NotoSerifSC;
+    src: url('../component/Noto_Serif_SC/NotoSerifSC-Regular.otf');
+}
+#logo {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition-duration: 2s;
+    animation-duration: 2s;
+    animation: fade-in;
+    -webkit-animation: fade-in 2s;
+    /* opacity: 0; */
+}
+#logo a {
+    display: inline-block;
+    color: black;
+    font-family: Cursive;
+    text-decoration: none;
+    text-shadow: 0px 0px .5rem rgba(255, 255, 255, 0.95);
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+#logo h1 {
+    display: block;
+    font-size: 3.5em;
+    font-weight: 100;
+    /* letter-spacing: 3.25rem; */
+    margin-bottom: 5px;
+}
+#logo h2 {
+    display: block;
+    font-size: 1.05em;
+    font-weight: 300;
+    /* letter-spacing: .85rem; */
+    padding-left: .35rem;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#logo span {
+    letter-spacing: 0;
+}
+.Menu>div>button{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 0.5em;
+}
+.Menu{
+    position: absolute;
+    top:40%;
+}
+.field{
+    width: 100%;
+    height: 100%;
+}
+.utils_mask{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+.script_stage{
+    width: 100%;
+    height: 100%;
+}
+.script_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.script_con{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    width: 90%;
+    left: 5%;
+}
+.script_dialog_con{
+    position: absolute;
+    height: 32%;
+    bottom: 2%;
+    user-select: none;
+}
+.script_dialog_box{
+    position: absolute;
+    height: calc(100% - 20px);
+    width: calc(100% - 24px);
+    background-color: rgba(240, 240, 240, 0.7);
+    font-family: NotoSerifSC !important;
+    padding: 1em;
+    font-size: large;
+}
+.script_dialog_bar{
+    position: absolute;
+    bottom: 3px;
+    right: 1%;
+}
+.script_dialog_bar button{
+    width: 22px;
+    padding: 0;
+    margin-right: 2px;
+}
+.Char{
+
+}
