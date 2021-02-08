@@ -1,12 +1,3 @@
-使用 Electron 搭建的适用腾讯云COS的实用工具。
+一个自建 Galgame 框架，简陋得要死。
 
-在`config.json`中输入相关配置信息，只有CDN_URL不是必要的。
-
-使用方法
-
-```
-npm install
-npm start
-```
-
-右键复制CDN下文件的链接。
+为了满足github，所以把大的二进制文件都删掉了，欲获取完整包可以访问release。
